@@ -14,3 +14,7 @@ git add [file]:  this moves a file from the directory to the staging area
 
 git commit:  moves every file from the staging area to the repository.
 
+git diff --staged:  the difference between the staging area and the repository.
+
+git reset --hard:  discards ANY CHANGES in the working directory and staging area.  BE CAREFUL!!! YOU CANT REVERSE A RESET!
+
