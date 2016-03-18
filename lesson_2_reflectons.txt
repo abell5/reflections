@@ -1,0 +1,16 @@
+These are my lesson 2 reflections.
+
+Files go to the staging area, then get commited.
+
+Use git status to see what is up.
+
+Use git add to move to the staging area, then git commit to move to the repository.
+
+COMMANDS:
+
+git init:	 this will initalize the repository
+
+git add [file]:  this moves a file from the directory to the staging area
+
+git commit:  moves every file from the staging area to the repository
+
