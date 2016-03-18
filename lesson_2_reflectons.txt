@@ -12,5 +12,5 @@ git init:	 this will initalize the repository
 
 git add [file]:  this moves a file from the directory to the staging area
 
-git commit:  moves every file from the staging area to the repository
+git commit:  moves every file from the staging area to the repository.
 
