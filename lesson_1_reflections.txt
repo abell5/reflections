@@ -1,0 +1,43 @@
+In Lesson 1 I learned about the windows command "fc", which is file compare.  It will tell you the differences between two files.
+
+Syntax:
+
+>  fc [file1] [fil2]
+
+Version control can be used in Dropbox, Google Docs.  Wikipedia uses version control extensively.
+
+A *commit* is a saved version
+
+*git diff [commit1] [commit2]* this command is like "fc" but for git diff
+
+Commit after each bug.  You don't want that shit too big to the point where it isn't useful.
+
+
+A commit is a snapshot of every file in your repository at that time.
+
+Q:  Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A:  Because git is designed for programmers, and programmers are more likely to be working with multiple files all at  the same time.x`
+
+
+Use *clone [url]" to clone a github repository to your local drive
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: Use log to see the list, and use git diff to compare to each other
+
+-git checkout [commit_id] will make the listed commit the head version
+
+-HEAD is the current version you are on
+
+Q:  How might using version control make you more confident to make changes that could break something?
+A:  Easy, I can always go back to checkout and retrive my shit
+
+A: You can use git log to show the commit history and git diff to compare across different versions.
+
+-*HEAD* is what git calls the version you are currently working on
+
+-*git checkout* is similiar to restoring.  Changing all your files to the way they were
+
+A: git log will list all changes the the file, and then git diff allows you to compare across versions.
+
+
+***The second arguemnet in git diff is the new file, and the new lines from that file will be shown as additions.
