@@ -18,3 +18,16 @@ git diff --staged:  the difference between the staging area and the repository.
 
 git reset --hard:  discards ANY CHANGES in the working directory and staging area.  BE CAREFUL!!! YOU CANT REVERSE A RESET!
 
+git checkout -b [new_branch_name]:  Checks out an old commit and creates a new branch there so we can see what is happening
+
+
+REFLECTIONS
+
+1.  Staging area helps you make sure you only make 1 logical change at a time.  You can put things in the staging area one at a time.
+
+2.  Branches will be extremely useful when adding experimental features that may break a version or demo.  Very excited about this git feature.  Also keeps history very organized.
+
+GREAT IDEA:  Master branch always works.  You have developmental branches, and experimental branches. 
+
+MASTER BRANCH SHOULD ALWAYS WORK.
+
