@@ -1,5 +1,7 @@
 In Lesson 1 I learned about the windows command "fc", which is file compare.  It will tell you the differences between two files.
 
+*Edit from lesson 3*
+
 Syntax:
 
 >  fc [file1] [fil2]
