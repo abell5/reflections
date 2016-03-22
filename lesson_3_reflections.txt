@@ -1,0 +1,13 @@
+Lesson 3 reflections
+
+Remote - repository that links local and github directroy
+
+Use git remote to check the status of your remotes
+
+Common practice to name the first remote of a repo 'origin'
+
+To create a remote for a repo, use:
+	git remote add origin [url supplied by GitHub]
+	
+You can also use git remote -v to see more information
+	-v means 'verbose' in Git, i.e. show more information
